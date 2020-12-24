@@ -1,0 +1,12 @@
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Program.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Aggregates\EventAggregate.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Infrastructure\AggregateRepositories\EventRepository.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Handlers\EventLogsCommandHandler.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Infrastructure\Services\FileService.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Infrastructure\Services\EventLogsParser.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Models\EventLog.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Handlers\CommandHandler.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Messages\ProcessEventLogsCommand.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Infrastructure\DependencyConfigModule.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Aggregates\EventState.java
+C:\Users\michal.goral\IdeaProjects\EventsParser\src\main\java\Infrastructure\Services\StreamParser.java

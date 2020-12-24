@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="jdbc:hsqldb:file:C:/DB/Events/">
+  <database-model serializer="dbm" dbms="HSQLDB" family-id="HSQLDB" format-version="4.20">
+    <root id="1">
+      <ServerVersion>2.4.0</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="PUBLIC">
+      <Current>1</Current>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+    </schema>
+    <schema id="5" parent="2" name="SYSTEM_LOBS"/>
+    <table id="6" parent="4" name="EVENT"/>
+    <column id="7" parent="6" name="Id">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="8" parent="6" name="EventId">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="9" parent="6" name="Duration">
+      <Position>3</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="10" parent="6" name="Type">
+      <Position>4</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="11" parent="6" name="Host">
+      <Position>5</Position>
+      <DataType>VARCHAR(20)|12s</DataType>
+    </column>
+    <column id="12" parent="6" name="Alert">
+      <Position>6</Position>
+      <DataType>BIT(1)|-7s</DataType>
+    </column>
+    <index id="13" parent="6" name="SYS_IDX_SYS_PK_10232_10236">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="14" parent="6" name="SYS_IDX_SYS_CT_10234_10239">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EventId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="15" parent="6" name="SYS_PK_10232">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="16" parent="6" name="SYS_IDX_SYS_CT_10234_10239">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EventId</ColNames>
+    </key>
+  </database-model>
+</dataSource>
