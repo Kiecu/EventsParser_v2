@@ -4,6 +4,9 @@
 # Log file
 *.log
 
+# Target folder
+target/
+
 # BlueJ files
 *.ctxt
 
